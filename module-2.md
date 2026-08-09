@@ -95,6 +95,6 @@ RTL_Workshop/
 
 ## 👤 Author
 
-**Name:** Arpitha Garrepalli
-**College:** Anurag University
+**Name:** PRINCY FLORENCE
+**College:** Anurag Universit
 **Branch:** Electronics and Communication Engineering (ECE)
