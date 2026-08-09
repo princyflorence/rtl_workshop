@@ -1,18 +1,9 @@
 # 🔧 Module 2 — Timing Libraries, Synthesis Approaches & Flip-Flop Coding
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-Verilog-9cf?style=for-the-badge" alt="Verilog">
-  <img src="https://img.shields.io/badge/Tool-Icarus%20Verilog-2f6fed?style=for-the-badge" alt="Icarus Verilog">
-  <img src="https://img.shields.io/badge/Tool-GTKWave-e67e22?style=for-the-badge" alt="GTKWave">
-  <img src="https://img.shields.io/badge/Tool-Yosys-27ae60?style=for-the-badge" alt="Yosys">
-  <img src="https://img.shields.io/badge/PDK-SKY130-red?style=for-the-badge" alt="SKY130">
-</p>
-
 <p align="center"><em>Part of the <a href="https://github.com/ArpithaGarrepalli/RTL_Workshop">RTL Workshop</a> series</em></p>
 
 ---
 
-## 🎯 Objectives
 
 > Understand **timing libraries** and the **SKY130 PDK**, explore **hierarchical vs. flattened synthesis**, study different **flip-flop coding styles**, walk through the complete **RTL simulation and synthesis flow**, and observe how **Yosys optimizes RTL** into efficient gate-level hardware.
 
@@ -50,7 +41,7 @@ The timing library used during the workshop was:
 sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
-### 🔍 1.2 Understanding `tt_025C_1v80`
+
 
 | Term | Meaning |
 |:---:|---|
@@ -97,7 +88,7 @@ flatten
 
 **Figure 3:** Flattened synthesized design.
 
-### ⚖️ 2.3 Comparison
+
 
 <table>
 <tr><th>Feature</th><th>🟦 Hierarchical Synthesis</th><th>🟧 Flattened Synthesis</th></tr>
@@ -362,11 +353,4 @@ gvim mult8_net.v
 
 ## 📌 Conclusion
 
-Module 2 provided practical experience with timing libraries, synthesis techniques, flip-flop coding styles, RTL simulation, waveform analysis, and technology mapping — building a clear understanding of how an RTL design is converted into an optimized gate-level implementation using standard-cell libraries.
-
----
-
-## 👤 Author
-
-**Arpitha Garrepalli**
-📎 [github.com/ArpithaGarrepalli/RTL_Workshop](https://github.com/ArpithaGarrepalli/RTL_Workshop)
+Module 2 provided practical experience with timing libraries, synthesis techniques, flip-flop coding styles, RTL simulation, waveform analysis, and technology mapping — building a clear understanding of how an RTL design is converted into an optimized gate-level implementation using standard-cell libraries
