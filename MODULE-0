@@ -1,0 +1,6 @@
+1. Introduction
+This module provides an introduction to RTL (Register Transfer Level) design and the complete RTL-to-synthesis flow.
+
+The objective is to understand how a digital circuit is described using Hardware Description Languages (HDLs), simulated to verify its functionality, and synthesized into a gate-level representation.
+
+This module also introduces the Linux environment, Git, GitHub, and the basic tools required for RTL design and synthesis.
