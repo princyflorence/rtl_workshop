@@ -96,12 +96,6 @@ Violating either causes **metastability** — an unreliable, unpredictable outpu
 
 ---
 
-## 🔗 Module 3 Documentation
-
-Detailed explanation, simulation steps, screenshots, and results are available here:
-
-➡️ [Module 3 – Sequential Logic, FSMs & Synthesis Fundamentals](https://github.com/afraajabeen-creator/RTL_Design_Workshop/blob/main/Module_4/README.md)
-
 ---
 
 ## 🛠 Tools Used
