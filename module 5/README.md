@@ -81,7 +81,7 @@ gtkwave incom_if.vcd
 ```
 
 ### 🖼️ Output
-<img width="958" height="930" alt="Incomplete IF - simulation waveform" src="https://github.com/user-attachments/assets/20e96880-2907-4f39-ac25-3de694b1efa2" />
+
 
 ### 📊 Observation
 - The output changes only when the select signal (`sel`) is high.
@@ -329,7 +329,7 @@ The multiplexer functions correctly; simulation validates proper data selection 
 Demonstrates the behavior of a demultiplexer, where a single input is routed to one of several outputs based on the select signal.
 
 ### 🖼️ Output
-<img width="958" height="930" alt="DEMUX - simulation waveform" src="https://github.com/user-attachments/assets/e866c0ae-c957-47ea-88ee-416ed30bff1c" />
+
 
 ### 📊 Observation
 Only the selected output receives the input signal, while all remaining outputs stay inactive.
