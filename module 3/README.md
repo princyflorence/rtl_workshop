@@ -53,6 +53,8 @@ Built directly from chained flip-flops:
 - **Counter**: increments/decrements a stored value each cycle — a basic building block for timers, address generators, and control logic.
 
 ---
+<img width="2119" height="1077" alt="image" src="https://github.com/user-attachments/assets/7de76b6f-a773-48b3-9645-6a04ac8b8d6d" />
+
 
 ## 🚦 Finite State Machines (FSMs)
 
@@ -70,6 +72,7 @@ An FSM is a design pattern for sequential circuits with distinct **states**, **t
 3. **3-always block** – further separates next-state logic and output logic into distinct blocks for clarity and easier debugging
 
 The 2- and 3-always styles are generally preferred in industry RTL for better synthesis predictability and readability.
+<img width="2124" height="1175" alt="image" src="https://github.com/user-attachments/assets/dde5d21e-7e07-4877-ac1f-f02b66222fce" />
 
 ---
 
@@ -82,6 +85,7 @@ Synthesis is the process of converting Verilog RTL code into a **gate-level netl
 2. Synthesis tool maps logic to a technology library
 3. Gate-level netlist generated
 4. Timing and area reports produced
+<img width="2090" height="1190" alt="image" src="https://github.com/user-attachments/assets/52e1fc75-64db-466c-962b-7bb4aad3efbf" />
 
 ---
 
@@ -95,6 +99,7 @@ Two concepts are critical once sequential elements are involved:
 Violating either causes **metastability** — an unreliable, unpredictable output state that can propagate errors through a design.
 
 ---
+<img width="2125" height="1196" alt="image" src="https://github.com/user-attachments/assets/3d5aae89-6fe9-4683-bca2-d6382a9fbbf6" />
 
 ---
 
