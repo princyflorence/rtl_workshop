@@ -1,4 +1,4 @@
-# 🚀 Module 5 – Optimization in Synthesis
+<img width="2156" height="1028" alt="image" src="https://github.com/user-attachments/assets/158912b1-ba4e-4217-b51d-ab56e53f6bcf" /># 🚀 Module 5 – Optimization in Synthesis
 
 
 
@@ -81,6 +81,9 @@ gtkwave incom_if.vcd
 ```
 
 ### 🖼️ Output
+<img width="2235" height="1213" alt="image" src="https://github.com/user-attachments/assets/4423fab1-11a4-4f05-817e-9044f52538b3" />
+
+<img width="2137" height="886" alt="image" src="https://github.com/user-attachments/assets/b5c02873-c180-4466-af4b-e5d228bbafb7" />
 
 
 ### 📊 Observation
@@ -91,10 +94,12 @@ gtkwave incom_if.vcd
 
 ### ✅ Result
 RTL simulation confirmed that the output holds its previous value under unspecified conditions — illustrating latch inference caused by incomplete conditional assignments.
+<img width="2156" height="1028" alt="image" src="https://github.com/user-attachments/assets/8b6ac643-ec06-46bb-a1cd-714b996bae31" />
 
 ---
 
-## 2 – RTL Schematic of Incomplete IF Statement
+## 2 – RTL Schematic of Incomplete IF Statement!
+
 
 ### 📖 Overview
 This experiment synthesizes the incomplete IF statement using Yosys. Since the output isn't assigned for every condition, the tool infers a latch to preserve the previous value. The RTL schematic visually confirms this unintended storage element.
@@ -108,7 +113,6 @@ show
 ```
 
 ### 🖼️ Output
-
 
 ### 📊 Observation
 - The RTL schematic contains a latch inferred by the synthesis tool.
@@ -132,6 +136,7 @@ gtkwave incom_if.vcd
 ```
 
 ### 🖼️ Output
+<img width="2167" height="1108" alt="image" src="https://github.com/user-attachments/assets/dd8c3c45-cf69-4fdb-8cf5-95de40e88183" />
 
 ### 📊 Observation
 - The output changes only when the select signal is active.
@@ -158,6 +163,7 @@ show
 
 ### 🖼️ Output
 
+<img width="2200" height="1097" alt="image" src="https://github.com/user-attachments/assets/4f3806ed-c92c-4e13-b307-0806a68f2637" />
 
 ### 📊 Observation
 - The RTL schematic represents the synthesized hardware for the IF-ELSE design.
@@ -220,11 +226,6 @@ module comp_case (
         endcase
     end
 endmodule
-```
-
-### 🖼️ Synthesized Netlist
-
-### 🖼️ Simulation Waveform
 
 
 ### ✅ Result
@@ -259,10 +260,7 @@ module partial_case_assign (
 endmodule
 ```
 
-### 🖼️ Synthesized Netlist
 
-
-### 🖼️ Simulation Waveform
 
 ### 📊 Observation
 - Latches are inferred for `x` and `y` because their assignments are missing in some branches.
@@ -328,8 +326,6 @@ The multiplexer functions correctly; simulation validates proper data selection 
 ### 📖 Overview
 Demonstrates the behavior of a demultiplexer, where a single input is routed to one of several outputs based on the select signal.
 
-### 🖼️ Output
-
 
 ### 📊 Observation
 Only the selected output receives the input signal, while all remaining outputs stay inactive.
@@ -344,7 +340,6 @@ The demultiplexer operates correctly, successfully routing the input to the sele
 ### 📖 Overview
 Verifies the functionality of an 8-bit Ripple Carry Adder, which performs binary addition by propagating the carry from one full-adder stage to the next.
 
-### 🖼️ Output
 
 
 ### 📊 Observation
