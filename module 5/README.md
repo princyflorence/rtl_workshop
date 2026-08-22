@@ -1,11 +1,6 @@
 # 🚀 Module 5 – Optimization in Synthesis
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Tool-Yosys-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/HDL-Verilog-green?style=flat-square" />
-  <img src="https://img.shields.io/badge/Simulator-Icarus%20Verilog-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/PDK-SKY130-red?style=flat-square" />
-</p>
+
 
 ## 📖 Overview
 
@@ -113,7 +108,7 @@ show
 ```
 
 ### 🖼️ Output
-<img width="958" height="930" alt="Incomplete IF - RTL schematic" src="https://github.com/user-attachments/assets/92f02d1b-1498-40c0-8ac5-1f5bf52c356a" />
+
 
 ### 📊 Observation
 - The RTL schematic contains a latch inferred by the synthesis tool.
