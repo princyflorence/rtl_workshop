@@ -2,7 +2,7 @@
 
 # ⚡ Combinational & Sequential Logic Optimization
 
-### Module 3 
+### Module 4 
 
 Synthesis doesn't stop at mapping RTL to gates — this module explores how **Yosys** simplifies, prunes, and reshapes a design afterward, targeting the **SKY130** standard-cell library throughout.
 
